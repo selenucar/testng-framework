@@ -1,0 +1,29 @@
+So for what we did
+
+Languages : Java, JavaScript, html, css, gherkin,XMl, JSON
+Framework : JUnit framework, TestNG(You will start to learn)
+Design Pattern : PAge Object Model
+
+Tools:
+    -> Selenium WebDriver: Used to automate web based application
+    -> Maven: JAVA project build tool. -maven is used to create, run, deploy projects. makes project building process easier
+    -> Jira: Project management tool
+
+Version Control System : Git(local) / Github(cloud)
+
+API: (I am using Rest API)
+    -> Postman: Tool for manual API testing
+    -> RestAssured : API test automation library to create Rest API
+        -> Rest
+        -> Soap
+
+(Rest is type of API, REstAssured is library for testing)
+
+-----------------------------------------------------------------------
+
+TestNG is a tool to create a framework(for Testers, gives them more controls)
+suite: entire framework
+
+"What do you want? Do you want the test case continue to execute or STOP "
+-> hardAssert (not run)
+-> softAssert/verification(if-else statement) (will run), comes from TestNG

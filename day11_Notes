@@ -1,0 +1,63 @@
+
+
+
+
+
+
+-Annotations : Multiple Before and After Annotations
+                -@BeforeSuite     @AfterSuite
+                -@BeforeTest      @AfterTest
+                -@BeforeGroups    @AfterGroups
+                -@BeforeClass     @AfterClass
+                -@BeforeMethods   @AfterMethods
+
+-@Test : Mark a method as a Test Case. It creates test cases and let us run the cases.
+-@Ignore : Skips a test case
+we also have @Test(enabled = false) same as @Ignore
+
+***Assertion :
+-Hard Asserrion : Stops the test execution if the Assertion line fails
+-Soft Assertion : Continues to the test execution even if the Assertion line fails
+To use soft assertion we have to create softAssert object.
+- SoftAssert sa = new SoftAssert();
+    sa.assertTrue() ......or other assertions you can use
+    sa.
+
+*****DAY 11*****
+Oct 12, 2021
+------------
+POM(Page Object Model):
+    -> Framework Design Pattern
+            + maintainable(we can fix, we can update)
+            + reusable
+            + readable
+            + faster(unnecessary object)
+    -> pages packages-> page classes -> page objects -> page elements
+    -> tests packages -> test classes
+
+    -> Why POM?
+        +
+
+     Step 1 : Identify page element, sore it in page classes (@FindBy), create login method (Page Class)
+     Step 2 : Create faceLoginPage object (Test Class) from Page Class
+
+
+IQ : They can ask explain your framework:
+    - 1 single driver (for avoiding any conflict)
+    Driver class is part of POM
+    private -> to protect or hide the driver( that class)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

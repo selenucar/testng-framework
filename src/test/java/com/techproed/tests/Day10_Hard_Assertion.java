@@ -31,7 +31,7 @@ public class Day10_Hard_Assertion {
         when user goes to the application home page
         http://www.carettahotel.com/
         then verifies the title equals "Caretta Hotel"
-        and clicks on loginn button
+        and clicks on login button
         then verify the page title equals "Caretta Hotel - Log in"
          */
         driver.get("http://www.carettahotel.com/");
